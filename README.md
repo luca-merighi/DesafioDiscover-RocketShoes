@@ -1,6 +1,6 @@
 # Página de e-commerce de calçados esportivos
 ### Desafio do Curso Discover da Rocketseat 🚀
-Este desafio é uma página de e-commerce de calçados esportivos (apenas layout) utilizando conceitos de **HTML**, **CSS** e **JavaScript**. <br/>
+Este desafio é uma página de e-commerce de calçados esportivos (apenas layout) utilizando conceitos de **HTML**, e **CSS**. <br/>
 A página possuí semântica, responsividade e acessibilidade.
 
 ### Site construído com:
