@@ -10,4 +10,4 @@ A página possuí semântica, responsividade e acessibilidade.
 </div>
 <br/>
 
-### [Link para a Página]( "RocketShoes")
+### [Link para a Página](https://luca-merighi.github.io/DesafioDiscover-RocketShoes/ "RocketShoes")
