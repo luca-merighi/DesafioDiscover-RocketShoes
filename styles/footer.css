@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > img:hover {
+    filter: brightness(0.95);
+    cursor: pointer;
+}
+
+.social-links {
+    list-style: none;
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links li a {
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    color: var(--black);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.social-links li a:focus {
+    outline: 2px solid var(--black);
+}
+
+.explore {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    padding: 1rem 0;
+
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.explore:hover {
+    background-color: #222;
+}
+
+.explore:focus {
+    background-color: #222;
+
+    outline: 2px solid var(--white);
+}

@@ -1,0 +1,99 @@
+#main {
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 70%;
+}
+
+.product-description .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text h3 {
+    font-size: 1.5rem;
+} 
+
+.text p {
+    color: var(--text-grey);
+}
+
+.buy-product {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.buy-product span {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.buy-product-button {
+    width: 70%;
+    background-color: var(--red);
+    border: none;
+    padding: 1rem;
+    font: 700 1rem 'Roboto', sans-serif;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.buy-product-button:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
+.buy-product-button:focus {
+    outline: 2px solid var(--black);
+}
+
+
+.product-display {
+    background-color: var(--grey);
+    padding: 1rem 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.product-display figure:first-of-type img {
+    width: 100%;
+}
+
+.product-display .gallery {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-display .gallery img {
+    width: 30%;
+    height: 5rem;
+}
+
+.product-display .gallery img:hover {
+    filter: brightness(0.95);
+    cursor: pointer;
+}
+
+.product-display .gallery img:focus {
+    outline: 2px solid var(--black);
+}
+
+.product-display .gallery img:nth-of-type(2) {
+    border-bottom: 5px solid var(--red);
+}

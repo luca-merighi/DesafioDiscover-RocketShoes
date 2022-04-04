@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+
+    --grey:  #C4C4C4;
+    --background: #E5E5E5;
+    --text-grey: #9C9696;
+    --main-bg: #ECECED;
+    
+    --black: #000;
+
+    --red: #FF0000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bg);
+}
